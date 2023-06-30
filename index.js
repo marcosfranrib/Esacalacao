@@ -3,7 +3,7 @@ function addPlayer (){
  const name = document.getElementById('name').value
  const number = document.getElementById('number').value
  
- const confirmation = confirm ("Escalar "+ name + " como " + position + " ? " )
+ const confirmation = confirm ("Escalar "+ name + "como" + position + "? " )
  if(confirmation) {
     const teamList = document.getElementById("team-list")
     const playerItem = document.createElement('li')
